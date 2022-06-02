@@ -1,4 +1,4 @@
-# kor_kue_tech
+# Kor Kue Tech
 
 A new Flutter project.
 
