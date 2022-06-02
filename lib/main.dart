@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Kor Kue App',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -25,7 +25,47 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Palette.primary,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(
+      //   title: 'Kor Kue Tech',
+      //   body: MyCustomForm(),
+      // ),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Kor Kue Tech Login'),
+        ),
+        body: MyCustomForm(),
+      ),
+    );
+  }
+}
+
+class MyCustomForm extends StatelessWidget {
+  const MyCustomForm({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: <Widget>[
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              hintText: 'Enter a search term',
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+          child: TextFormField(
+            decoration: const InputDecoration(
+              border: UnderlineInputBorder(),
+              labelText: 'Enter your username',
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
@@ -71,6 +111,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
+      backgroundColor: Palette.primary,
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
