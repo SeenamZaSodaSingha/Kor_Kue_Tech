@@ -1,6 +1,6 @@
 # Kor Kue Tech
 
-A new Flutter project.
+KorKueTech.co.Ltd Food order application for KMITL Students and staffs
 
 ## Getting Started
 

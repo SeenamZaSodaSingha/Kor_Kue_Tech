@@ -1,0 +1,36 @@
+// Column(
+                  //   crossAxisAlignment: CrossAxisAlignment.start,
+                  //   children: [
+                  //     TextField(
+                  //       // onChanged: (_) => _checkText(),
+                  //       // controller: _emailController,
+                  //       style:
+                  //           textTheme.bodyText1!.copyWith(color: Colors.white),
+                  //       decoration: InputDecoration(
+                  //           labelText: 'Email Address',
+                  //           labelStyle: textTheme.bodyText1!
+                  //               .copyWith(color: Colors.white),
+                  //           enabledBorder: const UnderlineInputBorder(
+                  //             borderSide: BorderSide(color: Colors.white),
+                  //           ),
+                  //           focusedBorder: const UnderlineInputBorder(
+                  //               borderSide: BorderSide(color: Colors.white))),
+                  //     ),
+                  //     TextField(
+                  //       // onChanged: (_) => _checkText(),
+                  //       // controller: _passwordController,
+                  //       obscureText: true,
+                  //       style:
+                  //           textTheme.bodyText1!.copyWith(color: Colors.white),
+                  //       decoration: InputDecoration(
+                  //           labelText: 'Password',
+                  //           labelStyle: textTheme.bodyText1!
+                  //               .copyWith(color: Colors.white),
+                  //           enabledBorder: const UnderlineInputBorder(
+                  //             borderSide: BorderSide(color: Colors.white),
+                  //           ),
+                  //           focusedBorder: const UnderlineInputBorder(
+                  //               borderSide: BorderSide(color: Colors.white))),
+                  //     ),
+                  //   ],
+                  // ),
