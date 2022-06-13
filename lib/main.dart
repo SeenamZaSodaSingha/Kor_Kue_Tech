@@ -36,11 +36,11 @@ class MyApp extends StatelessWidget {
             subtitle2: GoogleFonts.ibmPlexSansThai(
                 fontSize: 14, fontWeight: FontWeight.w500, letterSpacing: 0.1),
             bodyText1: GoogleFonts.sarabun(
-                fontSize: 17, fontWeight: FontWeight.w400, letterSpacing: 0.5),
+                fontSize: 30, fontWeight: FontWeight.w400, letterSpacing: 0.5),
             bodyText2: GoogleFonts.sarabun(
-                fontSize: 15, fontWeight: FontWeight.w400, letterSpacing: 0.25),
+                fontSize: 20, fontWeight: FontWeight.w400, letterSpacing: 0.25),
             button: GoogleFonts.sarabun(
-                fontSize: 15, fontWeight: FontWeight.w500, letterSpacing: 1.25),
+                fontSize: 20, fontWeight: FontWeight.w500, letterSpacing: 1.25),
             caption: GoogleFonts.sarabun(
                 fontSize: 13, fontWeight: FontWeight.w400, letterSpacing: 0.4),
             overline: GoogleFonts.sarabun(
